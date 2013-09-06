@@ -17,7 +17,7 @@
     }).get().join(' > ') || 'html';
   }
 
-  $.fn.leer = function () {
+  $.fn.autolytics = function () {
     return this.each(function () {
       var track = (function (elt) {
         return function (evt, info) {
